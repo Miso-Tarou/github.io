@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+    text-align: center; /* これでページ全体を中央寄せ */
+}
+table {
+  border-collapse: separate;
+  border-spacing: 1px
+  vertical-align: bottom;
+}
+table img {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
