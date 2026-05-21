@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+    text-align: center; /* これでページ全体を中央寄せ */
+}
+p {
+  margin: 50px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 1px
+  vertical-align: bottom;
+  margin: auto;
+}
+table.movelist {
+  table-layout: fixed;
+  width: 80%;
+}
+table img {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+footer {
+	padding-top: 20px;
+	height: 150px;
+	clear: left;
+	text-align: center;
+	position: relative;
+	border-top: 1px #e3e3e3 solid;
+}
